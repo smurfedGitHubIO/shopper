@@ -1,2 +1,2 @@
-# shopper
-A Shopee Price Checker app. Currently built for personal use.
+# Shopper (Shopee Price Checker)
+A simple web-scraping app to check certain items online. Currently built for personal use.
