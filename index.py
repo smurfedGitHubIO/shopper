@@ -12,13 +12,13 @@ opts = Options()
 opts.add_argument(" --headless")
 opts.binary_location= os.getcwd() +'"C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe"'
 chrome_driver = os.getcwd() +"C:\\Users\\HP\\Downloads\\chromedriver_win32"
-shops = {'ab':'169850668','mo':'190924746', 'fo':'266213560', 'kj':'204666159'}
+shops = {'ab':'169850668','mo':'190924746', 'fo':'266213560', 'kj':'204666159', 'se':'307694824'}
 # abukay yung may singles
 # moldandmore yung may singles pero nasa kada
 # fortress vmall yung may mamahaling singles
 # kjhobbies yung mura af
 what_to_search = input('Search what? Huh? ')
-shop = input('In what shop? Huh? (ab, mo, fo, kj) ')
+shop = input('In what shop? Huh? (ab, mo, fo, kj, se) ')
 url='https://shopee.ph/search?keyword=' + what_to_search + '&shop=' + shops[shop]
 s=Service('C:/Users/HP/Downloads/chromedriver_win32/chromedriver.exe')
 browser = webdriver.Chrome(service=s)
